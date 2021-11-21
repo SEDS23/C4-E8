@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+}
+
+input, select, button{
+    display: block;
+    padding: 0.3rem 1rem;
+}
+
+.header{
+    background-color: #009fd9;
+    padding: 1rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.container-logo{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+}
+.header a{
+    text-decoration: none;
+    color: #333;
+}
+.navigation-header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation-header ul li {
+    display: inline-block;
+    
+}
+.navigation-header ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+}
+.navigation-header button{
+    display: block;
+    padding: 0.3rem 1rem;
+}
+.navigation-header input{
+    display: block;
+    padding: 0.3rem 1rem;
+}
+
+
+.section-left{
+    position: fixed;
+    left: 0%;
+    top: 92px;
+    right: 70%;
+}
+.container-left ul{
+    padding: 10px 120px 60px;
+    list-style: none;
+    line-height: 30px;
+}
+.container-left a {
+    text-decoration: none;
+    color: #333;
+}
+.container-left img{
+    display: block;
+    margin: auto;
+}
+
+
+.main{
+    position: fixed;
+    left: 30%;
+    top: 92px;
+    right: 0%;
+}
+.main h1{
+    font-size: 40px;
+    width: 70%;
+    margin-top: 60px;
+}
+.main h2{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+header #logout{
+    margin-left: 251px;
+}
