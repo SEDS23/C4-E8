@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard administrativo.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src=img/alibaba-icon.png width="60px" height="40px" >
                 </div>
@@ -50,41 +50,18 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Empleados</span>
+                    <span>Gestión de usuarios</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Gestión de empleados:</h6>
-                        <a class="collapse-item" href="#">Ver lista de empleado</a>
-                        <a class="collapse-item" href="#">Ingresar nuevo empleado</a>
+                        <h6 class="collapse-header">Gestión de usuarios:</h6>
+                        <a class="collapse-item" href="lista de usuarios.html">Ver lista de usuarios</a>
+                        <a class="collapse-item" href="#">Ingresar nuevo usuario</a>
                     </div>
                 </div>
             </li>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Autorizar solicitudes</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Autorizar:</h6>
-                        <a class="collapse-item" href="#">Vacaciones</a>
-                        <a class="collapse-item" href="#">Certificados</a>
-                        <a class="collapse-item" href="#">Permisos no remunerados</a>
-                        
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Comprobantes de pago</span></a>
-            </li>
+           
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -173,139 +150,117 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                <!-- Begin Page Content -->
-                <div class="container-fluid">
+<!-- Begin Page Content -->
+<div class="container-fluid">
 
-                    <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Permisos</h1>
-                    
-                    
-                    <!-- DataTales Example -->
-                    <div class="card shadow mb-4">
-                        <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Autorizaciones pendientes</h6>
-                        </div>
-                        <div class="card-body">
-                            <div class="table-responsive">
-                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
-                                    <thead>
-                                        <tr>
-                                            <th>Nombre</th>
-                                            <th>Identificación</th>
-                                            <th>Fecha de contratación</th>
-                                            <th>Tipo</th>
-                                            <th>Cargo</th>
-                                            <th>Salario</th>
-                                        </tr>
-                                    </thead>
-                                    <tfoot>
-                                        <tr>
-                                            <th>Nombre</th>
-                                            <th>Identificación</th>
-                                            <th>Fecha de contratación</th>
-                                            <th>Tipo</th>
-                                            <th>Cargo</th>
-                                            <th>Salario</th>
-                                        </tr>
-                                    </tfoot>
-                                    <tbody>
-                                        <tr>
-                                            <td>xd</td>
-                                            <td>123456789</td>
-                                            <td>1/11/2021</td>
-                                            <td>Empleado</td>
-                                            <td>Oficinista</td>
-                                            <td>1.500.000</td>
-                                            
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <!-- /.container-fluid -->
-
-                <section>
-                    <br>&nbsp; &nbsp;&nbsp; &nbsp;<a href="#" class="btn btn-primary btn-icon-split">
-                        <span class="icon text-white-50">
-                            <i class="fas fa-flag"></i>
-                        </span>
-                        <span class="text">Nuevo</span>
-                    </a>
-
-                    <a href="#" class="btn btn-success btn-icon-split">
-                        <span class="icon text-white-50">
-                            <i class="fas fa-check"></i>
-                        </span>
-                        <span class="text">Editar</span>
-                    </a>
-
-                    <a href="#" class="btn btn-danger btn-icon-split">
-                        <span class="icon text-white-50">
-                            <i class="fas fa-trash"></i>
-                        </span>
-                        <span class="text">Eliminar</span>
-                    </a>
-
-                </section>
-
-                <br>
-                <br>
-                <section >
-                    <div class="card mb-4">
-                        <div class="card-header">
-                            <p style="text-align: center;">Generar reporte</p>
-                        </div>
-                        <div class="card-body">
-                            <div style="float: left; ">
-                                <h3 class="h4 mb-2 text-gray-800">Inserte un salario para generar el reporte</h3>
-                                <input type="text">
-                            </div>
-                            <div >
-                                <h3 class="h4 mb-2 text-gray-800" style="text-align: center;">Formato</h3>
-                                <div style="text-align: center;">
-                                <select >
-                                    <option value="1">PDF</option> 
-                                    <option value="2">ePUB</option> 
-                                    <option value="3">Word</option>
-                                </div>    
-                                 </select>
-                            </div>
-                    </div>
-                    
-                    
-                    <div style="text-align: left;">
-                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
-                            <i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
-                    </div>
-
-
-                </section>
-
-
-
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Lista de usuarios</h1>
+    
+    
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">Usuarios registrados</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Identificación</th>
+                            <th>Fecha de contratación</th>
+                            <th>Cargo</th>
+                            <th>Tipo</th>
+                            <th>Salario</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Identificación</th>
+                            <th>Fecha de contratación</th>
+                            <th>Cargo</th>
+                            <th>Tipo</th>
+                            <th>Salario</th>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <tr>
+                            <td>xd</td>
+                            <td>123456789</td>
+                            <td>1/11/2021</td>
+                            <td>Oficinista</td>
+                            <td>Empleado</td>
+                            <td>1.500.000</td>
+                            
+                        </tr>
+                        <tr>
+                            <td>xd</td>
+                            <td>123456789</td>
+                            <td>1/11/2021</td>
+                            <td>Gestior de recursos humanos</td>
+                            <td>Nómina</td>
+                            <td>2.300.000</td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                </table>
             </div>
-            <!-- End of Main Content -->
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->
+
+<section>
+    <br>&nbsp; &nbsp;&nbsp; &nbsp;<a href="#" class="btn btn-primary btn-icon-split">
+        <span class="icon text-white-50">
+            <i class="fas fa-flag"></i>
+        </span>
+        <span class="text">Nuevo</span>
+    </a>
+
+    <a href="#" class="btn btn-success btn-icon-split">
+        <span class="icon text-white-50">
+            <i class="fas fa-check"></i>
+        </span>
+        <span class="text">Editar</span>
+    </a>
+
+    <a href="#" class="btn btn-danger btn-icon-split">
+        <span class="icon text-white-50">
+            <i class="fas fa-trash"></i>
+        </span>
+        <span class="text">Eliminar</span>
+    </a>
+
+</section>
 
 
-                <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+</div>
+<!-- End of Main Content -->
 
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
 
-    </body>
+<!-- Bootstrap core JavaScript-->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Core plugin JavaScript-->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Custom scripts for all pages-->
+<script src="js/sb-admin-2.min.js"></script>
+
+<!-- Page level plugins -->
+<script src="vendor/chart.js/Chart.min.js"></script>
+
+<!-- Page level custom scripts -->
+<script src="js/demo/chart-area-demo.js"></script>
+<script src="js/demo/chart-pie-demo.js"></script>
+
+</body>

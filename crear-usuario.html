@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Crear usuario</title>
+    <title>Dashboard administrativo</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard administrativo.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src=img/alibaba-icon.png width="60px" height="40px" >
                 </div>
@@ -50,41 +50,18 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Empleados</span>
+                    <span>Gestión de usuarios</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Gestión de empleados:</h6>
-                        <a class="collapse-item" href="#">Ver lista de empleado</a>
-                        <a class="collapse-item" href="#">Ingresar nuevo empleado</a>
+                        <h6 class="collapse-header">Gestión de usuarios:</h6>
+                        <a class="collapse-item" href="lista de usuarios.html">Ver lista de usuarios</a>
+                        <a class="collapse-item" href="crear-usuario.html">Ingresar nuevo usuario</a>
                     </div>
                 </div>
             </li>
 
-            <!-- Nav Item - Pages Collapse Menu -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Autorizar solicitudes</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Autorizar:</h6>
-                        <a class="collapse-item" href="#">Vacaciones</a>
-                        <a class="collapse-item" href="#">Certificados</a>
-                        <a class="collapse-item" href="#">Permisos no remunerados</a>
-                        
-                    </div>
-                </div>
-            </li>
-
-            <!-- Nav Item - Charts -->
-            <li class="nav-item">
-                <a class="nav-link" href="#">
-                    <i class="fas fa-fw fa-chart-area"></i>
-                    <span>Comprobantes de pago</span></a>
-            </li>
+           
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -172,67 +149,91 @@
 
                 </nav>
                 <!-- End of Topbar -->
-                
-                <div style="float: left; ">&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Nombre">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Apellido">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Email">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <select placeholder="Selecciones el tipo de documento">
-                        <option value="value1">Cédula de ciudadanía CC</option>
-                        <option value="value2" >Resgistro especial de permanencia</option>
-                        <option value="value3">Cédula de extranjería</option>
-                    </select>
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Documento de identidad">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Teléfono">
-                </div>
 
-                
-                <div>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="EPS">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Dirección">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Departamento">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    
-                    <input type="text" placeholder="Ciudad">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Fecha de ingreso">
-                    <hr>
-                    <br>&nbsp;&nbsp;&nbsp;
-                    <input type="text" placeholder="Contraseña">
-                </div>
-                
+<div style="float: left; ">&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Nombre" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Apellido" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Email" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <select style="border: 2px solid #ccc;border-radius: 4px; width: 80%;"placeholder="Seleccione el tipo de documento">
+        <option value="value1">Cédula de ciudadanía CC</option>
+        <option value="value2" >Resgistro especial de permanencia</option>
+        <option value="value3">Cédula de extranjería</option>
+    </select>
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Documento de identidad" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Teléfono" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <select style="border: 2px solid #ccc;border-radius: 4px; width: 80%;"placeholder="Seleccione el tipo de documento">
+        <option value="value1">Empleado</option>
+        <option value="value2" >Nomina</option>
+    </select>
+</div>
 
-                <!-- Bootstrap core JavaScript-->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <!-- Core plugin JavaScript-->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+<div>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="EPS" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Dirección" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Departamento" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    
+    <input type="text" placeholder="Ciudad" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Fecha de ingreso" style="border: 2px solid #ccc;border-radius: 4px;">
+    <hr>
+    <br>&nbsp;&nbsp;&nbsp;
+    <input type="text" placeholder="Contraseña" style="border: 2px solid #ccc;border-radius: 4px;">
+</div>
 
-    <!-- Custom scripts for all pages-->
-    <script src="js/sb-admin-2.min.js"></script>
 
-    <!-- Page level plugins -->
-    <script src="vendor/chart.js/Chart.min.js"></script>
+    
 
-    <!-- Page level custom scripts -->
-    <script src="js/demo/chart-area-demo.js"></script>
-    <script src="js/demo/chart-pie-demo.js"></script>
 
-    </body>
+
+<hr>
+<hr>
+<br>
+<br>
+<br>
+
+<br>&nbsp;&nbsp;&nbsp;
+
+<a href="#" class="btn btn-primary btn-icon-split">
+    
+    <span class="text">Registar nuevo usuario</span>
+
+</a> 
+
+            <!-- Bootstrap core JavaScript-->
+            <script src="vendor/jquery/jquery.min.js"></script>
+            <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        
+            <!-- Core plugin JavaScript-->
+            <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+        
+            <!-- Custom scripts for all pages-->
+            <script src="js/sb-admin-2.min.js"></script>
+        
+            <!-- Page level plugins -->
+            <script src="vendor/chart.js/Chart.min.js"></script>
+        
+            <!-- Page level custom scripts -->
+            <script src="js/demo/chart-area-demo.js"></script>
+            <script src="js/demo/chart-pie-demo.js"></script>
+        
+            </body>

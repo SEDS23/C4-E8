@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard nómina</title>
+    <title>Lista de empleados</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -168,7 +168,120 @@
                 </nav>
                 <!-- End of Topbar -->
 
-                
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">Lista de empleados</h1>
+                    
+                    
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Empleados registrados</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Identificación</th>
+                                            <th>Fecha de contratación</th>
+                                            <th>Cargo</th>
+                                            <th>Salario</th>
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Nombre</th>
+                                            <th>Identificación</th>
+                                            <th>Fecha de contratación</th>
+                                            <th>Cargo</th>
+                                            <th>Salario</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>xd</td>
+                                            <td>123456789</td>
+                                            <td>1/11/2021</td>
+                                            <td>Oficinista</td>
+                                            <td>1.500.000</td>
+                                            
+                                        </tr>
+                                        
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+                <section>
+                    <br>&nbsp; &nbsp;&nbsp; &nbsp;<a href="#" class="btn btn-primary btn-icon-split">
+                        <span class="icon text-white-50">
+                            <i class="fas fa-flag"></i>
+                        </span>
+                        <span class="text">Nuevo</span>
+                    </a>
+
+                    <a href="#" class="btn btn-success btn-icon-split">
+                        <span class="icon text-white-50">
+                            <i class="fas fa-check"></i>
+                        </span>
+                        <span class="text">Editar</span>
+                    </a>
+
+                    <a href="#" class="btn btn-danger btn-icon-split">
+                        <span class="icon text-white-50">
+                            <i class="fas fa-trash"></i>
+                        </span>
+                        <span class="text">Eliminar</span>
+                    </a>
+
+                </section>
+
+                <br>
+                <br>
+                <section >
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <p style="text-align: center;">Generar reporte</p>
+                        </div>
+                        <div class="card-body">
+                            <div style="float: left; ">
+                                <h3 class="h4 mb-2 text-gray-800">Inserte un salario para generar el reporte</h3>
+                                <input type="text">
+                            </div>
+                            <div >
+                                <h3 class="h4 mb-2 text-gray-800" style="text-align: center;">Formato</h3>
+                                <div style="text-align: center;">
+                                <select >
+                                    <option value="1">PDF</option> 
+                                    <option value="2">ePUB</option> 
+                                    <option value="3">Word</option>
+                                </div>    
+                                 </select>
+                            </div>
+                    </div>
+                    
+                    
+                    <div style="text-align: left;">
+                        <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm">
+                            <i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
+                    </div>
+
+
+                </section>
+
+
+
+            </div>
+            <!-- End of Main Content -->
+
 
                 <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>

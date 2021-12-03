@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Dashboard nómina</title>
+    <title>Editar información</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard nomina.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="dashboard empleado.html">
                 <div class="sidebar-brand-icon rotate-n-15">
                     <img src=img/alibaba-icon.png width="60px" height="40px" >
                 </div>
@@ -50,13 +50,13 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-cog"></i>
-                    <span>Empleados</span>
+                    <span>Opciones de usuario</span>
                 </a>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Gestión de empleados:</h6>
-                        <a class="collapse-item" href="lista de empleados.html">Ver lista de empleado</a>
-                        <a class="collapse-item" href="crear-empleado.html">Ingresar nuevo empleado</a>
+                        <h6 class="collapse-header">Menú de usuario:</h6>
+                        <a class="collapse-item" href="perfil-empleado.html">Ver información de usuario</a>
+                        <a class="collapse-item" href="edición información-empleado.html">Editar información de <br> usuario</a>
                     </div>
                 </div>
             </li>
@@ -66,12 +66,12 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
                     aria-expanded="true" aria-controls="collapsePages">
                     <i class="fas fa-fw fa-folder"></i>
-                    <span>Autorizar solicitudes</span>
+                    <span>Realizar solicitudes</span>
                 </a>
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Autorizar:</h6>
-                        <a class="collapse-item" href="permisos.html">Vacaciones, certificados <br> y permisos</a>
+                        <h6 class="collapse-header">Solicitar:</h6>
+                        <a class="collapse-item" href="realización de solicitudes.html">Vacaciones, certificados y <br> permisos no remunerados</a>
                         
                         
                     </div>
@@ -79,7 +79,11 @@
             </li>
 
             <!-- Nav Item - Charts -->
-            
+            <li class="nav-item">
+                <a class="nav-link" href="reporte de pago.html">
+                    <i class="fas fa-fw fa-chart-area"></i>
+                    <span>Comprobantes de pago</span></a>
+            </li>
 
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">
@@ -168,6 +172,32 @@
                 </nav>
                 <!-- End of Topbar -->
 
+                <div style="float: left; ">&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Nombre" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Apellido" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Email" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Documento de identidad" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Teléfono" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Dirección" style="border: 2px solid #ccc;border-radius: 4px;">
+                    <hr>
+                    <br>
+                    <br>&nbsp;&nbsp;&nbsp;<a href="#" class="btn btn-primary btn-icon-split">
+                        
+                        <span class="text">Registar nuevos cambios</span>
+                    </a>
+                </div>
+                <br>
+                <br>
                 
 
                 <!-- Bootstrap core JavaScript-->
